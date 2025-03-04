@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 app.use(UserRoute);
 app.get("/", (req, res) => {
-    res.send("Server berjalan dengan baik! 🚀");
+    res.send("Server berjalan dengan baik! 🚀 selamat datang");
 });
 
 
